@@ -678,6 +678,12 @@ form button{
     gap: 15px;
     grid-template-columns: repeat(auto-fill, 100%);
   }
+  @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
   .popup-box .popup{
     max-width: calc(100% - 15px);
   }
